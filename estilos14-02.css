@@ -27,7 +27,9 @@ a {
     text-align: center;
 }
 .teste {
-    width: 600px;
+    max-width: 400px;
+    max-height: 70px;
+    width: 400px;
     height: 70px;
     padding: 10px;
     margin-right: auto;
