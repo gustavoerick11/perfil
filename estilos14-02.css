@@ -31,7 +31,7 @@ a {
     max-height: 70px;
     width: 400px;
     height: 70px;
-    padding: 10px;
+    padding: auto;
     margin: auto;
 }
 /*imagem */
