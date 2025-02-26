@@ -6,6 +6,7 @@ body {
     font-weight: 700;
     font-style: italic;
 }
+
 h2 {
     font-size: 24px;
 }
@@ -31,7 +32,6 @@ a {
     max-height: 70px;
     width: 400px;
     height: 70px;
-    padding: auto;
     margin: auto;
 }
 /*imagem */
@@ -58,3 +58,41 @@ button {
     border-radius: 20%;
     color: blueviolet;
 } */
+@media only screen and (max-width: 500px) {
+    body {
+        text-align: center;
+        background: linear-gradient(to right, rgb(19, 4, 61), rgb(0, 0, 0));
+        color: rgb(254, 254, 255);
+        font-family: "PT Sans", serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    i {
+        margin: 0.5%;
+    }
+    a {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 4, 255);
+        text-align: center;
+        font-size: 30px;
+        padding: 15px;
+        border-radius: 25px;
+        margin: 10px;
+        text-decoration: none;
+        display: block;
+    }
+    .centro {
+        text-align: center;
+    }
+    .teste {
+        max-width: 400px;
+        max-height: 70px;
+        width: 400px;
+        height: 70px;
+        margin: auto;
+    }
+}
